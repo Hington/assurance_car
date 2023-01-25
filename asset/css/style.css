@@ -1,0 +1,320 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.barNav{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+nav{
+    display: flex;
+}
+.logo{
+    margin: 3px 0 0 25px;
+    width: 160px;
+    height: 60px;
+}
+.barNav ul{
+    display: flex;
+}
+
+.barNav ul li{
+    list-style: none;
+    padding-left: 9px;
+    margin-top: auto;
+    font-weight: 100;
+}
+.barNav ul h6{
+    height: 20px;
+    width: 2px;
+    background-color: #000;
+    margin: 0 5px;
+    position: relative;
+    top: 43px;
+}
+
+.menuTel, .menu, .barNav  nav h3{
+    margin-block: auto;
+}
+.barNav  nav h3{
+    padding: 10px 15px;
+    background-color: #fff;
+    border-radius: 25px;
+    height: 40px;
+    font-size: 15px;
+}
+
+.barNav  nav .contacter{
+    color: rgb(226, 75, 75);
+    border: 1px solid rgb(226, 75, 75);
+    font-weight: 100;
+    cursor: pointer;
+}
+.barNav  nav .contacter:hover{
+    background: rgb(226, 75, 75);
+    border: 1px solid #fff;
+    color: #fff;
+}
+.barNav  nav .sinistre{
+    color: #2a899e;
+    border: 1px solid #2a899e;
+    margin-left: 5px;
+    margin-right: 25px;
+    font-weight: 100;
+    cursor: pointer;
+}
+.barNav  nav .sinistre:hover{
+    background: #2a899e;
+    border: 1px solid #fff;
+    color: #fff;
+}
+.barNav  nav .menu{
+    margin-right: 45px;
+    text-transform: capitalize;
+    margin-left: 5px;
+}
+.headerImg{
+    background: url(/asset/img/imageATL.png) 50% no-repeat;
+    background-size: cover;
+    height: 60vh;
+}
+.zoneT p{
+    background-color: rgb(231 231 231 / 33%);
+    text-transform: capitalize;
+    padding: 15px;
+    text-indent: 25px;
+    font-size: medium;
+}
+.headerImg .cadre{
+    background-color: #fff;
+    width: 661px;
+    margin: 2px auto;
+    position: relative;
+    top: 86%;
+    padding: 25px;
+    padding-bottom: 15px;
+    border-radius: 15px 15px;
+}
+.headerImg .cadre h4{
+    text-align: center;
+}
+.headerImg .cadre h4.titre{
+    text-transform: capitalize;
+    font-size: 36px;
+    font-weight: 800;
+    color: #2a899e;
+}
+.headerImg .cadre h4.sTitre{
+    font-size: 36px;
+    font-weight: 100;
+}
+.bodySection_2{
+    margin-top: 88px;
+}
+.bodySection_2 p.texte{
+    margin: 15px auto 1px;
+    text-align: center;
+    font-size: x-large;
+    font-weight: 100;
+}
+.bodySection_2 h6.souligne{
+    width: 3%;
+    height: 1px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: #2a899e;
+    margin-bottom: 15px;
+}
+.bodySection_2 .etapes{
+    display: grid;
+    width: 90%;
+    margin: 1px auto;
+    grid-template-columns: repeat(3, 33%);
+    grid-gap: 0.5%;
+    margin: 1px auto;
+}
+ .bodySection_2 .etapes h6{
+    width: 100%;
+    height: 5px;
+    background-color: #2a899e;
+    margin-bottom: 15px;
+}
+
+.bodySection_2 .etapes .etape_2 h6,.bodySection_2 .etapes .etape_3 h6{
+    background-color: rgba(109, 109, 109, 0.61);
+}
+.bodySection_3 p.sectionText{
+    color: #2a899e;
+    font-size: 26px;
+    margin-left: 40px;
+    text-indent: 38px;
+    margin: 10px 2px 25px 40px;
+}
+.bodySection_3 .choix{
+    background-color: #EAEAEA;
+    padding: 59px;
+    width: 90%;
+    margin: 5px auto;
+    border-radius: 15px;
+}
+.bodySection_3 h2{
+    margin: 3px;
+    text-indent: 45px;
+}
+.bodySection_3 .choix_vehicule{
+    display: grid;
+    grid-template-columns: repeat(4, 24.5%);
+    width: 90%;
+    margin: 15px auto;
+    grid-gap: 1.5%;
+}
+.bodySection_3 .choix_vehicule .car{
+    display: flex;
+    background-color: #fff;
+    border-radius: 25px;
+    justify-content: center;
+    padding: 12px;
+    
+}
+.bodySection_3 .choix_vehicule .car p{
+ text-align: center;
+ padding: 10px;
+}
+.bodySection_4{
+    display: grid;
+    width: 90%;
+    grid-template-columns: repeat(2, 48%);
+    grid-gap: 1.5%;
+    margin: 30px auto;
+}
+.bodySection_4 .detail_1{
+    background-color: #EAEAEA;
+    padding: 45px;
+    width: 100%;
+    border-radius: 15px;
+}
+.bodySection_4 .detail_1 .explication{
+    display: flex;
+}
+.bodySection_4 .detail_1 .explication h6{
+    margin-left: 5px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #2a899e;
+    text-align: center;
+    color: #fff;
+    font-weight: bolder;
+    padding: 4px 7px;
+}
+.bodySection_4 .detail_1 .explication p{
+    font-weight: 900;
+    font-size: x-large;
+}
+.bodySection_4 .detail_1  .inputEtBtn{
+    display: flex;
+}
+.bodySection_4 .detail_1  input{
+    padding: 15px;
+    margin-top: 15px;
+}
+.bodySection_4 .detail_1 .btnDirection{
+    display: flex;
+    flex-direction: column;
+    margin-left: -40px;
+    justify-content: space-evenly;
+    margin-top: 13px;
+}
+.bodySection_4 .detail_1 .btnDirection p{
+    
+    margin-left: -11px;
+
+}
+.bodySection_4 .detail_1 .place ul{
+    display: flex;
+    margin-top: 30px;
+}
+.bodySection_4 .detail_1 .place ul li{
+    padding-right: 25px;
+    margin-right: 40px;
+    list-style: none;
+    font-size: 20px;
+}
+.bodySection_4 .detail_1 .place ul h6{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    border: 1px solid #000;
+    margin-right: 10px;
+    padding: 8px;
+}
+.bodySection_4 button{
+    padding: 10px;
+    grid-column: span 2;
+    width: 150px;
+    border-radius: 25px;
+    position: relative;
+    justify-self: self-end;
+    background: none;
+    border: 1px solid rgb(226, 75, 75);
+    color: rgb(226, 75, 75);
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+.bodySection_4 button:hover{
+    background: rgb(226, 75, 75);
+    border: 1px solid #fff;
+    color: #fff;
+}
+footer{
+    background-color: #EAEAEA;
+}
+footer .footer{
+    display: grid;
+    grid-template-columns: repeat(5, 19.5%);
+    grid-gap: 0.5%;
+    width: 100%;
+    margin: 10px auto;
+    padding: 15px;
+}
+footer .footer .img img{
+    width: 100%;
+    height: 100%;
+}
+footer .footer .nous, footer .footer .assurance, footer .footer .mult, footer .footer .site{
+    margin: 1px auto;
+}
+footer .footer .nous p, footer .footer .assurance p, footer .footer .mult p, footer .footer .site p{
+    padding: 5px;
+}
+footer h6{
+    height: 2px;
+    width: 100%;
+    background-color: #646464;
+}
+footer .pied{
+    padding: 15px;
+    display: flex;
+    width: 98%;
+    margin: 1px auto;
+    justify-content: space-between;
+}
+footer .pied .icon{
+    cursor: pointer;
+    text-decoration: none;
+}
+footer .pied .icon a{
+    text-decoration: none;
+}
+footer .footer a{
+    text-decoration: none;
+    color: #000;
+}
+footer .footer a:hover{
+    text-decoration: none;
+    color: #2a899e;
+}

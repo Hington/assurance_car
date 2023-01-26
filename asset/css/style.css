@@ -77,9 +77,22 @@ nav{
     margin-left: 5px;
 }
 .headerImg{
+    background-color: indianred;
     background: url(/asset/img/imageATL.png) 50% no-repeat;
     background-size: cover;
     height: 60vh;
+}
+.zoneT {
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+.zoneT  marquee{
+    background: red;
+    padding: 15px;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 25px;
+
 }
 .zoneT p{
     background-color: rgb(231 231 231 / 33%);

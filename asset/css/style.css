@@ -77,8 +77,7 @@ nav{
     margin-left: 5px;
 }
 .headerImg{
-    background-color: indianred;
-    background: url(/asset/img/header.png) 50% no-repeat;
+    background: url(./asset/img/header.png) 50% no-repeat;
     background-size: cover;
     height: 60vh;
 }
